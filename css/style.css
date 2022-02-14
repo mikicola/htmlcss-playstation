@@ -73,3 +73,12 @@ header{
     background-color: rgb(var(--red-color));
     border-color: rgb(var(--red-color));
 }
+
+.game_cover img{
+    border-radius: 20px;
+    margin: .5rem;
+}
+
+.game_cover .special{
+    border: 3px solid #177ed2;
+}
