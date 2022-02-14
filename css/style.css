@@ -1,3 +1,15 @@
+:root{
+    --grey-color: 140, 140, 140, 1;
+    --red-color: 205, 61, 15, 1;
+}
+
+/* nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+} */
+
 .top_nav{
     background-color: black;
 }
@@ -12,14 +24,52 @@
 
 .main_nav{
     height: 80px;
+    align-items: center;
+}
+
+.hamburger{
+    color: rgb(var(--grey-color));
 }
 
 header{
-    width: 1080px;
+    color: white;
+}
+
+.jumbo_img .container{
+    position: absolute;
+    bottom: 15%;
 }
 
 .jumbo_img{
+    position: relative;
+    background: url(../img/jumbo-bg.png) no-repeat center;
+    background-size: cover;
+    height: 500px;
+    overflow: hidden;
+}
+
+.logo_main_game{
+    width: 300px;
+}
+
+.jumbo_img span{
     display: block;
-    margin:0 auto;
-    text-align: center;
+}
+
+.mod_btn{
+    border-radius: 50px;
+}
+
+.mod_btn:hover{
+    filter: brightness(0.8);
+}
+
+.red_btn{
+    background-color: rgb(var(--red-color));
+    border-color: rgb(var(--red-color));
+}
+
+.red_btn:hover{
+    background-color: rgb(var(--red-color));
+    border-color: rgb(var(--red-color));
 }
