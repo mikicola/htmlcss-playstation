@@ -1,0 +1,25 @@
+.top_nav{
+    background-color: black;
+}
+
+.sony_logo{
+    height: 15px;
+}
+
+.blu{
+    background-color: cornflowerblue;
+}
+
+.main_nav{
+    height: 80px;
+}
+
+header{
+    width: 1080px;
+}
+
+.jumbo_img{
+    display: block;
+    margin:0 auto;
+    text-align: center;
+}
