@@ -37,6 +37,22 @@ body{
     color: rgb(var(--grey-color));
 }
 
+.dropdown-menu[data-bs-popper] {
+    margin-top: 0;
+}
+
+.dropdown-menu .ul_ps li{
+    list-style: none;
+}
+
+.dropdown-menu .ul_games li a{
+   color: black;
+}
+
+.dropdown-menu .ul_games .ul_dot{
+    color: rgb(var(--blue-color));
+ }
+
 header{
     color: white;
 }
