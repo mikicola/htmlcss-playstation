@@ -12,6 +12,10 @@
     overflow: hidden;
 } */
 
+body{
+    margin-top: 105px;
+}
+
 .top_nav{
     background-color: black;
 }
