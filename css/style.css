@@ -16,6 +16,16 @@ body{
     margin-top: 105px;
 }
 
+html a {
+    text-decoration: double;
+    color: black;
+}
+
+html a:hover {
+    color: black;
+}
+
+
 .top_nav{
     background-color: black;
 }
@@ -61,16 +71,21 @@ header{
     color: white;
 }
 
-.jumbo_img .container{
+.jumbo_img .container,
+.disp_game_img .container{
     position: absolute;
     bottom: 15%;
 }
 
 .jumbo_img{
-    position: relative;
     background: url(../img/jumbo-bg.png) no-repeat center;
-    background-size: cover;
     height: 500px;
+    
+}
+
+.jumbo_img, .disp_game_img{
+    position: relative;
+    background-size: cover;
     overflow: hidden;
 }
 
@@ -78,8 +93,14 @@ header{
     width: 300px;
 }
 
-.jumbo_img span{
+.jumbo_img span,
+.disp_game_img span{
     display: block;
+}
+
+.jumbo_img button,
+.disp_game_img button{
+    margin-top: 2rem;
 }
 
 .mod_btn{
@@ -115,12 +136,17 @@ header{
     margin-top: 6rem;
 }
 
-.ps5_section span{
+.ps5_section .no_limits{
     color: rgb(var(--blue-color));
 }
 
 .ps5_section img{
     width: 100%;
+}
+
+.ps5_section .item_cover img,
+.ps5_section .item_cover_sp img{
+    width: 60%;
 }
 
 /* colore paragrafi p grey */
@@ -129,10 +155,28 @@ header{
     font-weight: 500;
 }
 
-.item_cover .item{
+.item_cover{
     filter: opacity(.7);
+}
+
+.item_cover:hover{
+    filter: none;
+}
+
+.item_cover span, .item_cover_sp span{
+    font-size: 1em;
+    font-weight: 600;
 }
 
 .ps5_section .border_bottom{
     border-bottom: 3px solid rgb(var(--blue-color));
+}
+
+.disp_game_img{
+    background: url(../img/it-takes-two-hero-banner-desktop.jpg) no-repeat center;
+    height: 950px;  
+}
+
+.disp_game_img .text{
+    color: white;
 }
