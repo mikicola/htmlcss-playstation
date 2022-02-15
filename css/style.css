@@ -3,6 +3,7 @@
     --grey-color: 140, 140, 140, 1;
     --red-color: 205, 61, 15, 1;
     --blue-color: 23, 126, 210, 1;
+    --dark-color: 31, 31, 31, 1;
 }
 
 /* nav{
@@ -124,7 +125,7 @@ header{
 
 .game_cover img{
     border-radius: 20px;
-    margin: .5rem;
+    /* margin: .5rem; */
 }
 
 .game_cover .special{
@@ -178,5 +179,14 @@ header{
 }
 
 .disp_game_img .text{
+    color: white;
+}
+
+.list_games{
+    background-color: rgb(var(--dark-color));
+    color: white;
+}
+
+.list_games span{
     color: white;
 }
