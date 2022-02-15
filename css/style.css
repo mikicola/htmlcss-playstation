@@ -1,6 +1,8 @@
 :root{
+    font-family: Arial, Helvetica, sans-serif;
     --grey-color: 140, 140, 140, 1;
     --red-color: 205, 61, 15, 1;
+    --blue-color: 23, 126, 210, 1;
 }
 
 /* nav{
@@ -58,6 +60,7 @@ header{
 
 .mod_btn{
     border-radius: 50px;
+    font-weight: 600;
 }
 
 .mod_btn:hover{
@@ -80,5 +83,32 @@ header{
 }
 
 .game_cover .special{
-    border: 3px solid #177ed2;
+    border: 3px solid rgb(var(--blue-color));
+}
+
+
+.ps5_section{
+    margin-top: 6rem;
+}
+
+.ps5_section span{
+    color: rgb(var(--blue-color));
+}
+
+.ps5_section img{
+    width: 100%;
+}
+
+/* colore paragrafi p grey */
+.grey_p_text{
+    color: gray;
+    font-weight: 500;
+}
+
+.item_cover .item{
+    filter: opacity(.7);
+}
+
+.ps5_section .border_bottom{
+    border-bottom: 3px solid rgb(var(--blue-color));
 }
