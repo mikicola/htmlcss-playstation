@@ -137,8 +137,12 @@ header{
 }
 
 .mod_btn:hover{
-    /* filter: brightness(0.8); */
     box-shadow: inset 0px 0px 0px 2px rgba(255, 255, 255, 1);
+}
+
+.mod_btn:active{
+    filter: brightness(0.8);
+
 }
 
 .red_btn{
@@ -178,6 +182,11 @@ header{
     border-color: white;
     color: black;
     box-shadow: inset 0px 0px 0px 2px rgb(var(--dark-blue-color));
+}
+
+.btn:focus, .btn-primary:active:focus, 
+.btn-dark:active:focus{
+    box-shadow: none;
 }
 
 
@@ -263,6 +272,15 @@ header{
     font-size: .5em;
     vertical-align: super;
 }
+
+/* .item_cover_ps4{
+    position: relative;
+}
+
+.item_cover_ps4 button{
+    position: absolute;
+    bottom: 0;
+} */
 
 .ps_plus{
     background-color: rgb(var(--light-grey-color));
