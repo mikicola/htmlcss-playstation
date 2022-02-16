@@ -61,6 +61,30 @@ html a:hover {
     color: rgb(var(--blue-color));
  }
 
+.dropdown-item:hover{
+    box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.2);
+    background-color: transparent;
+}
+
+ /* ////////freccia che si gira////// */
+.dropdown_arrow::after{
+    content: "\f078";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 0.8rem;
+    display: inline-block;
+    transition: transform 0.2s ease;
+}
+
+.nav-link.dropdown_arrow.show::after{
+    transform: rotate(180deg);
+    color: rgb(var(--blue-color));
+}
+.nav-link.dropdown_arrow.show{
+}
+ /* ////////freccia che si gira////// */
+
+ 
 .btn_search{
     background-color: transparent;
     border-color: transparent;
@@ -78,6 +102,7 @@ header{
 .disp_game_img .container{
     position: absolute;
     bottom: 15%;
+    left: 3%;
 }
 
 .jumbo_img{
@@ -136,6 +161,10 @@ header{
     /* border: 3px solid rgb(var(--blue-color)); */
 }
 
+.game_cover:hover{
+    transform: translate(0, -10px);
+    transition: 0.3s;
+}
 
 .ps5_section{
     margin-top: 6rem;
@@ -160,12 +189,17 @@ header{
     font-weight: 500;
 }
 
+.item_cover, .item_cover_sp{
+    height: 228px;
+}
+
 .item_cover{
     filter: opacity(.7);
 }
 
 .item_cover:hover{
     filter: none;
+    border-bottom: 3px solid rgb(var(--blue-color));
 }
 
 .item_cover span, .item_cover_sp span{
