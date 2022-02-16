@@ -229,10 +229,14 @@ header{
 footer{
     background-color: #00439c;
     color: white;
+    padding-bottom: 5rem;
 }
 
 .white-ps-logo{
-    width: 150px;
+    margin-top: -1.5rem; /* per allinearlo ai link  */
+    margin-left: -1rem;
+    
+    width: 130px;
     filter: brightness(0) invert(1);
 }
 
@@ -244,8 +248,22 @@ footer .row{
 
 footer ul{
     list-style: none;
+    line-height: 2rem;
 }
 
 footer a{
+    color: white;
+}
+
+footer .img_sie_logo{
+    width: 150px;
+}
+
+footer p{
+    font-size: .9em;
+}
+
+
+footer .more_info a:hover{
     color: white;
 }
