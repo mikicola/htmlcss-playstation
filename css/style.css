@@ -190,3 +190,8 @@ header{
 .list_games span{
     color: white;
 }
+
+.ps4_section .reg{
+    font-size: .5em;
+    vertical-align: super;
+}
