@@ -218,6 +218,10 @@ header{
     align-self: center;
 }
 
-.sconti_ps{
+.sconti_ps, .social_media{
     margin-top: 4rem;
+}
+
+.social_media{
+    margin-bottom: 4rem;
 }
