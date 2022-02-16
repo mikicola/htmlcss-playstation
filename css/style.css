@@ -225,3 +225,27 @@ header{
 .social_media{
     margin-bottom: 4rem;
 }
+
+footer{
+    background-color: #00439c;
+    color: white;
+}
+
+.white-ps-logo{
+    width: 150px;
+    filter: brightness(0) invert(1);
+}
+
+
+footer .row{
+    /* margin-top: 4rem; */
+
+}
+
+footer ul{
+    list-style: none;
+}
+
+footer a{
+    color: white;
+}
