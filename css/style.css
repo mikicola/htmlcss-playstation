@@ -4,6 +4,7 @@
     --red-color: 205, 61, 15, 1;
     --blue-color: 23, 126, 210, 1;
     --dark-color: 31, 31, 31, 1;
+    --light-grey-color: 190, 188, 187, 1;
 }
 
 /* nav{
@@ -195,3 +196,17 @@ header{
     font-size: .5em;
     vertical-align: super;
 }
+
+.ps_plus{
+    background-color: rgb(var(--light-grey-color));
+    /* height: 300px; */
+}
+
+.ps_plus .ps_plus_logo_img{
+    width: 300px;
+}
+
+.ps_plus .text_content{
+    align-self: center;
+}
+
