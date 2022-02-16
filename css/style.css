@@ -20,7 +20,7 @@ body{
 }
 
 html a {
-    text-decoration: double;
+    text-decoration: none;
     color: black;
 }
 
@@ -144,12 +144,42 @@ header{
 .red_btn{
     background-color: rgb(var(--red-color));
     border-color: rgb(var(--red-color));
+    color: white;
 }
 
 .red_btn:hover{
     background-color: rgb(var(--red-color));
     border-color: rgb(var(--red-color));
+    color: white;
+    box-shadow: inset 0px 0px 0px 2px rgb(0, 0, 0);
 }
+
+.grey_btn{
+    background-color: #d9dadc;
+    border-color: #d9dadc;
+    color: rgb(var(--blue-color));
+}
+
+.grey_btn:hover{
+    background-color: #d9dadc;
+    border-color: #d9dadc;
+    color: rgb(var(--blue-color));
+    box-shadow: inset 0px 0px 0px 2px rgb(var(--light-grey-color));
+}
+
+.white_btn{
+    background-color: white;
+    border-color: white;
+    color: black;
+}
+
+.white_btn:hover{
+    background-color: white;
+    border-color: white;
+    color: black;
+    box-shadow: inset 0px 0px 0px 2px rgb(var(--dark-blue-color));
+}
+
 
 .game_cover img{
     border-radius: 20px;
@@ -161,7 +191,7 @@ header{
     /* border: 3px solid rgb(var(--blue-color)); */
 }
 
-.game_cover:hover{
+.games_container .game_cover:hover{
     transform: translate(0, -10px);
     transition: 0.3s;
 }
@@ -283,6 +313,10 @@ footer ul{
 }
 
 footer a{
+    color: white;
+}
+
+footer a:hover{
     color: white;
 }
 
