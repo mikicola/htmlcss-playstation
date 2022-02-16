@@ -37,13 +37,13 @@ html a:hover {
     height: 15px;
 }
 
-.navbar-light .navbar-nav .nav-link {
+/* .navbar-light .navbar-nav .nav-link {
     color: black;
 }
 
 .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
     color: black;
-}
+} */
 
 .dropdown-menu[data-bs-popper] {
     margin-top: 0;
@@ -112,7 +112,8 @@ header{
 }
 
 .mod_btn:hover{
-    filter: brightness(0.8);
+    /* filter: brightness(0.8); */
+    box-shadow: inset 0px 0px 0px 2px rgba(255, 255, 255, 1);
 }
 
 .red_btn{
@@ -131,7 +132,8 @@ header{
 }
 
 .game_cover .special{
-    border: 3px solid rgb(var(--blue-color));
+    box-shadow: 0 0 0 2px white, 0 0 0 5px rgb(var(--blue-color));
+    /* border: 3px solid rgb(var(--blue-color)); */
 }
 
 
@@ -235,16 +237,11 @@ footer{
 .white-ps-logo{
     margin-top: -1.5rem; /* per allinearlo ai link  */
     margin-left: -1rem;
-    
+
     width: 130px;
     filter: brightness(0) invert(1);
 }
 
-
-footer .row{
-    /* margin-top: 4rem; */
-
-}
 
 footer ul{
     list-style: none;
