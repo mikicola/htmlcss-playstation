@@ -195,7 +195,7 @@ header{
     box-shadow: none;
 }
 
-.game_cover{
+.games_container .game_cover{
     border-radius: 20px;
     overflow: hidden;
 
@@ -211,6 +211,10 @@ header{
 
 .game_cover.special{
     box-shadow: 0 0 0 2px white, 0 0 0 5px rgb(var(--blue-color));
+}
+
+.list_games .game_cover .img-fluid{
+    border-radius: 20px;
 }
 
 .list_games .game_cover:hover{
